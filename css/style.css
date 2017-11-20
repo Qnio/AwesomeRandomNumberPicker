@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #A9CC76; }
+
+header {
+  margin-top: 10%; }
+
+li {
+  display: inline-block;
+  padding-right: 20px;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Robo'; }
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 1em;
+  padding: .30em .5em .3125em;
+  color: rgba(60, 104, 46, 0.5);
+  border-radius: .50em;
+  background: transparent;
+  transition: all .100s; }
+  input:focus {
+    outline: none;
+    color: rgba(22, 48, 20, 0.75);
+    border-color: rgba(255, 255, 255, 0.75); }
+  input.keyup {
+    color: white;
+    border-color: #3daa5e;
+    text-shadow: 0 0 .125em white;
+    box-shadow: 0 0 .25em white,inset 0 0 .25em white; }
+
+/*# sourceMappingURL=style.css.map */
